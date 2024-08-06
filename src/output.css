@@ -734,8 +734,8 @@ body {
     height: auto;
   }
 
-  a img {
-    margin: 0;
+  a .plus {
+    margin-left: 0;
   }
 }
 
