@@ -8,3 +8,20 @@ body {
   /* background-repeat: no-repeat; */
   font-family: "Work Sans", sans-serif;
 }
+@media (max-width: 375px) {
+  body {
+    background-image: url("./assets/images/background-pattern-mobile.svg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 375px;
+  }
+  .container {
+    width: 85%;
+    justify-content: center;
+    height: auto;
+  }
+  a img {
+    margin: 0;
+  }
+}
