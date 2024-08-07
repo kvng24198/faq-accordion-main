@@ -21,7 +21,8 @@ body {
     justify-content: center;
     height: auto;
   }
-  a .plus {
-    margin-left: 0;
+  .first-head {
+    width: 200px;
+    justify-content: space-between;
   }
 }
